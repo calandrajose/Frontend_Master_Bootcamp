@@ -1,0 +1,93 @@
+body{
+    background-image: url(../images/old-paper.jpg);
+    background-repeat: round;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+
+}
+h1{
+    font-size: 3rem;
+    text-decoration: underline;
+    text-align: center;
+}
+h2{
+    text-align: justify;
+    font-size: 2rem;
+}
+nav{
+    display: inline-block;
+}
+q{
+    display: block;
+    text-align: justify;
+    font-size: 1.5rem;
+    background-color: antiquewhite;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: fit-content;
+    padding: 0.2rem 0.5rem 0 0.5rem;
+    margin: 0.7rem;
+}
+li{
+
+    font-size: 1.5rem;
+    width: fit-content;
+    margin: 0.5rem;
+}
+
+nav li{
+    border: 5px solid #61120E;
+    margin:5px;
+    list-style-type: none;
+    padding: 0%;
+    display: inline-block;
+    border-radius: 10px;
+}
+nav a {
+    background-color: #978584;
+    display: block;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav a:hover{
+    background-color: #A47853;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:link{
+    color: black;
+}
+
+.header{
+    width: 100%;
+    background-color: #F2A20C;
+}
+.wrapper{
+    text-align: justify;
+    width: 50%;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    z-index: 2;
+    border-radius: 10px;
+}
+p{
+    font-size: 1.5rem;
+    color: white; 
+}
+footer{
+    border-top: 2px solid black;
+}
+cite{
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+}
